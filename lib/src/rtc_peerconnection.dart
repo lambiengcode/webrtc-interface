@@ -42,6 +42,8 @@ abstract class RTCPeerConnection {
 
   Future<void> dispose();
 
+  String get peerConnectionId;
+
   Map<String, dynamic> get getConfiguration;
 
   Future<void> setConfiguration(Map<String, dynamic> configuration);
